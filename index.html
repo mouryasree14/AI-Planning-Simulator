@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Planning Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Planning Simulator</h1>
+<p class="subtitle">Create an environment and let the AI agent generate a plan.</p>
+
+<div class="main">
+
+<!-- LEFT PANEL -->
+<div class="sidebar">
+
+<h3>Design Tools</h3>
+
+<button onclick="setMode('start')" class="green">Set Start Point</button>
+<button onclick="setMode('goal')" class="red">Set Goal Point</button>
+<button onclick="setMode('obstacle')" class="dark">Draw Obstacles</button>
+
+<h3>Simulator Actions</h3>
+
+<button onclick="generatePlan()" class="blue">Generate Plan</button>
+<button onclick="resetGrid()" class="gray">Reset Grid</button>
+
+<div class="info">
+<h4>How it Works</h4>
+<ul>
+<li>Place Start and Goal</li>
+<li>Add obstacles</li>
+<li>BFS finds shortest path</li>
+<li>See action sequence below</li>
+</ul>
+</div>
+
+</div>
+
+<!-- GRID -->
+<div class="grid-container">
+<div id="grid"></div>
+</div>
+
+</div>
+
+<!-- OUTPUT PANEL -->
+
+<div class="output">
+
+<h3>Action Sequence</h3>
+<p id="actions">No plan generated yet.</p>
+
+<h3>Path Cost</h3>
+<p id="cost">0</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
