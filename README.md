@@ -1,15 +1,17 @@
 # AI Planning Simulator
 
-AI Planning Simulator is a simple web application that demonstrates basic concepts of Artificial Intelligence planning. It allows users to create a grid environment and see how an AI agent finds the shortest path to reach a goal.
+An interactive web application that demonstrates **Artificial Intelligence planning concepts** using a grid environment. The simulator allows users to create a planning problem and observe how an AI agent finds the shortest path to reach a goal.
+
+## Live Demo
+https://mouryasree14.github.io/AI-Planning-Simulator/
 
 ## Features
-- Interactive 10 × 10 grid
-- Set Start point
-- Set Goal point
-- Add obstacles
-- Generate path using BFS algorithm
-- Display action sequence
-- Show path cost
+- Interactive **10 × 10 grid**
+- Set **Start** and **Goal** points
+- Add **Obstacles**
+- Generate shortest path using **BFS algorithm**
+- Display **Action Sequence**
+- Calculate **Path Cost**
 
 ## Technologies Used
 - HTML
@@ -17,12 +19,12 @@ AI Planning Simulator is a simple web application that demonstrates basic concep
 - JavaScript
 
 ## How to Run
-1. Download or clone the repository
+1. Clone the repository
 2. Open the project folder
 3. Run `index.html` in your browser
 
-## Project Purpose
-This project helps students understand:
+## Purpose
+This project helps visualize key AI concepts:
 - Planning
 - Planning Problems
-- Simple Planning Agents in Artificial Intelligence
+- Simple Planning Agents
